@@ -23,14 +23,13 @@
   height: 26px;
   background-color: var(--color-grey);
   border-radius: 100%;
-  transition: all 0.3s;
+  transition: all 150ms ease-out;
 }
 
-.icon:hover{
+.icon:hover {
   background-color: var(--color-accent);
   transform: rotate(15deg) scale(1.2);
 }
-
 .button {
   color: var(--color-text);
   background-color: transparent;
